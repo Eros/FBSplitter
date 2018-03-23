@@ -6,7 +6,7 @@ import xml.extree.ElementTree as etree
 
 def writeToFile(prts, msgs):
     if len(prts) == 0:
-        print('There is no participants in a thread, currently being skipped!');
+        print('There is no participants in a thread, currently being skipped!')
         args = '' #need to make sure that this is going to be properly defined
     output = os.path.join(args.outdir, ', '.join(prts) + '.html')
 
